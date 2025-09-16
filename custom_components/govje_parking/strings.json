@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GOVJE Parking",
+        "description": "Set up GOVJE Parking integration to monitor car park spaces in Jersey.",
+        "data": {
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "unknown": "Unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "GOVJE Parking is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure GOVJE Parking",
+        "description": "Configure the update interval for the GOVJE Parking integration.",
+        "data": {
+          "scan_interval": "Scan Interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_scan_interval": "Scan interval must be between 2 and 120 minutes."
+    }
+  }
+}

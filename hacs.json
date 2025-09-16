@@ -1,0 +1,9 @@
+{
+  "name": "GOV.JE Parking",
+  "hacs": "1.0.0",
+  "homeassistant": "2025.4.4",
+  "render_readme": true,
+  "zip_release": true,
+  "filename": "govje_parking.zip",
+  "hide_default_branch": true
+}
