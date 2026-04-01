@@ -17,6 +17,7 @@ uv.lock
 
 # AI agent temporary scratch files and planning notes
 .ai-scratch/
+.claude/
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,virtualenv,pythonvanilla,visualstudiocode,homeassistant
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,virtualenv,pythonvanilla,visualstudiocode,homeassistant
