@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Create GitHub release
-        uses: softprops/action-gh-release@c062e08bd532815e2082a7e09ce9571a6d872641 # v2.2.1
+        uses: softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe # v2.6.1
