@@ -141,7 +141,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [commits]: https://github.com/Migz93/ha-govje_parking/commits/main
 [hacs]: https://hacs.xyz
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
-[exampleimg]: https://raw.githubusercontent.com/Migz93/ha-govje_parking/main/example.png
+[exampleimg]: https://raw.githubusercontent.com/Migz93/ha-govje_parking/main/docs/images/example.png
 [license]: https://github.com/Migz93/ha-govje_parking/blob/main/LICENSE
 [license-shield]: https://img.shields.io/github/license/Migz93/ha-govje_parking.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Migz93-blue.svg?style=for-the-badge
