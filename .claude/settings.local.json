@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /home/vscode/.claude/plans)",
+      "Read(//home/vscode/.claude/**)",
+      "Bash(find /workspaces/govje_parking/tests -type f -name *.py)"
+    ]
+  }
+}

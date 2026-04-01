@@ -1,0 +1,57 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GOVJE Parking",
+        "description": "Set up GOVJE Parking to monitor car park availability in Jersey.",
+        "data": {
+          "name": "Name"
+        },
+        "data_description": {
+          "name": "A name for this integration entry."
+        }
+      }
+    },
+    "error": {
+      "connection": "Unable to connect to the Government of Jersey parking API. Check your network connection.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "GOVJE Parking is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure GOVJE Parking",
+        "description": "Adjust how often car park availability is refreshed.",
+        "data": {
+          "scan_interval": "Update interval"
+        },
+        "data_description": {
+          "scan_interval": "How often (in minutes) to fetch fresh data from the parking API."
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "update_failed": {
+      "message": "Failed to fetch data from the Government of Jersey parking API."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_scrape": {
+        "name": "Last Scrape"
+      },
+      "last_api_update": {
+        "name": "Last API Update"
+      }
+    },
+    "button": {
+      "refresh": {
+        "name": "Refresh Data"
+      }
+    }
+  }
+}
