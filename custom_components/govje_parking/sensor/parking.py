@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, Any
 
 from custom_components.govje_parking.const import ATTRIBUTION
-from homeassistant.components.sensor import SensorEntity
+from homeassistant.components.sensor import SensorEntity, SensorStateClass
 from homeassistant.helpers.device_registry import DeviceInfo
 
 if TYPE_CHECKING:
@@ -33,7 +33,7 @@ class GOVJEParkingAvailabilitySensor(SensorEntity):
     _attr_has_entity_name = True
     _attr_native_unit_of_measurement = "spaces"
     _attr_icon = "mdi:parking"
-    _attr_state_class = None
+    _attr_state_class = SensorStateClass.MEASUREMENT
 
     def __init__(
         self,
