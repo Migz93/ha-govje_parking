@@ -10,7 +10,7 @@
 # _download URL DEST
 # Downloads a file with timeout and retry (3 attempts, exponential back-off).
 #
-# Retry policy: up to 3 attempts with doubling back-off (2 s -> 4 s).
+# Retry policy: up to 3 attempts with doubling back-off (2 s → 4 s).
 # Timeouts:     10 s to establish a connection, 60 s for the full transfer.
 #
 # Returns 0 on success, 1 if all attempts fail.
@@ -27,7 +27,7 @@ _download() {
             return 0
         fi
         if ((attempt < max_attempts)); then
-            log_warning "Download failed (attempt ${attempt}/${max_attempts}): ${url##*/} - retrying in ${delay}s..."
+            log_warning "Download failed (attempt ${attempt}/${max_attempts}): ${url##*/} — retrying in ${delay}s..."
             sleep "$delay"
             delay=$((delay * 2))
         fi
