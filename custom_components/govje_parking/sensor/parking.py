@@ -50,8 +50,8 @@ class GOVJEParkingAvailabilitySensor(SensorEntity):
         from custom_components.govje_parking.utils.string_helpers import slugify_name  # noqa: PLC0415
 
         slug = slugify_name(car_park_name)
-        self._attr_unique_id = f"{coordinator.config_entry.entry_id}_parking_{slug}"
-        self._attr_name = f"{car_park_name} Parking"
+        self._attr_unique_id = f"{coordinator.config_entry.entry_id}_{slug}"
+        self._attr_name = car_park_name
         self._attr_device_info = DeviceInfo(
             identifiers={(coordinator.config_entry.domain, coordinator.config_entry.entry_id)},
             name=coordinator.config_entry.title,

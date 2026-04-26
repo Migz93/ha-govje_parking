@@ -76,7 +76,7 @@ automation:
   - alias: "Notify when Sand Street car park has less than 20 spaces"
     trigger:
       - platform: numeric_state
-        entity_id: sensor.govje_parking_sand_street_parking
+        entity_id: sensor.govje_parking_sand_street
         below: 20
     action:
       - service: notify.mobile_app
@@ -85,7 +85,7 @@ automation:
           message: "Sand Street car park has less than 20 spaces available!"
 ```
 
-> **Note:** Entity IDs follow the pattern `sensor.{integration_name}_{car_park_name}_parking`. Find the exact entity ID for each car park in Settings → Devices & Services → GOVJE Parking → your device.
+> **Note:** Entity IDs follow the pattern `sensor.{integration_name}_{car_park_name}`. Find the exact entity ID for each car park in Settings → Devices & Services → GOVJE Parking → your device.
 
 ## Data Source
 
