@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/Migz93/ha-govje_parking/compare/v2.2.0...v2.2.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* **sensor:** drop redundant 'Parking' suffix from car park entity names ([78bc635](https://github.com/Migz93/ha-govje_parking/commit/78bc6354198777bbc8fa82585ccbe74ce18fc30c))
+
 ## [2.2.0](https://github.com/Migz93/ha-govje_parking/compare/v2.1.0...v2.2.0) (2026-04-26)
 
 
