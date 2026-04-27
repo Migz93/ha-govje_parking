@@ -17,7 +17,7 @@ permissions:
 jobs:
   release-please:
     name: Release Please
-    # Skip when running inside the upstream template repository
+    # Skip when running inside the template repository itself
     if: github.repository != 'jpawlowski/hacs.integration_blueprint'
     runs-on: ubuntu-latest
     steps:
