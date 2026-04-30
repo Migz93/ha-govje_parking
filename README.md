@@ -19,7 +19,7 @@ This custom integration for Home Assistant provides sensors for car park spaces 
 - Refresh Data button to trigger an immediate update
 - Configurable update interval (2–120 minutes)
 
-![example][exampleimg]
+![GOVJE Parking Example](docs/assets/govje-parking-example.png)
 
 ## Installation
 
@@ -31,6 +31,10 @@ This custom integration for Home Assistant provides sensors for car park spaces 
    - Add `https://github.com/Migz93/ha-govje_parking` with category "Integration"
 3. Click "Install" on the GOVJE Parking integration.
 4. Restart Home Assistant.
+
+You can also use the My Home Assistant button:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Migz93&repository=ha-govje_parking&category=integration)
 
 ### Manual Installation
 
@@ -148,7 +152,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [commits]: https://github.com/Migz93/ha-govje_parking/commits/main
 [hacs]: https://hacs.xyz
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
-[exampleimg]: https://raw.githubusercontent.com/Migz93/ha-govje_parking/main/docs/images/example.png
 [license]: https://github.com/Migz93/ha-govje_parking/blob/main/LICENSE
 [license-shield]: https://img.shields.io/github/license/Migz93/ha-govje_parking.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Migz93-blue.svg?style=for-the-badge
