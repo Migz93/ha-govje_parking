@@ -55,9 +55,10 @@ CONTRIBUTING.md
 DEPENDENCIES.md
 
 # ── AI agent instruction files ───────────────────────────────
-# Agent instruction files are customized for this project and must not be
-# overwritten by template sync when updates reintroduce generic placeholders
-# for domain, class prefix, integration title, or repository URLs.
+# Project-identity files are customized during initialization and must not be
+# overwritten by template sync (they contain your domain, class prefix, repo
+# URL, etc.). The path-specific blueprint instructions and prompts use generic
+# placeholders and ARE safely synced from the template.
 AGENTS.md
 CLAUDE.md
 GEMINI.md
