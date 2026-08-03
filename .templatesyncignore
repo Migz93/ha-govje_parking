@@ -27,7 +27,7 @@ pyproject.toml
 
 # ── Ignore pattern files ───────────────────────────────────────
 # .gitignore and .prettierignore contain a domain-specific negation pattern
-# (!custom_components/govje_parking/) set by initialize.sh that cannot be
+# (!custom_components/<your_domain>/) set by initialize.sh that cannot be
 # expressed as a generic placeholder. Syncing would revert that line.
 .gitignore
 .prettierignore
