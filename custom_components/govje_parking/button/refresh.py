@@ -15,7 +15,6 @@ ENTITY_DESCRIPTIONS: tuple[ButtonEntityDescription, ...] = (
     ButtonEntityDescription(
         key="refresh",
         translation_key="refresh",
-        icon="mdi:refresh",
         entity_category=EntityCategory.DIAGNOSTIC,
         has_entity_name=True,
     ),
