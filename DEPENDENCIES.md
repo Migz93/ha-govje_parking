@@ -42,7 +42,9 @@ async-timeout>=4.0.0
 
 - `pyright` - Type checker (we prefer pyright over HA's mypy for better IDE integration)
 - `colorlog` - Colored logging for development scripts
-- Performance tools (`zlib_ng`, `isal`) - Optional optimization packages
+- `zlib_ng` - Optional performance optimization
+
+`isal` is installed from the selected Home Assistant release's `requirements_all.txt` during bootstrap. Home Assistant manages its version; it is not pinned separately in `requirements_dev.txt`.
 
 **Note:** Most development tools (ruff, pre-commit, codespell, pylint) are already provided by Home Assistant core's `requirements_test.txt` and `requirements_test_pre_commit.txt`, which are installed automatically via `script/setup/bootstrap`.
 
