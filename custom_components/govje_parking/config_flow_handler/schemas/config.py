@@ -5,12 +5,12 @@ from __future__ import annotations
 from collections.abc import Mapping
 from typing import Any
 
-import voluptuous as vol
+import probatio
 
 from homeassistant.helpers import selector
 
 
-def get_user_schema(defaults: Mapping[str, Any] | None = None) -> vol.Schema:
+def get_user_schema(defaults: Mapping[str, Any] | None = None) -> probatio.Schema:
     """Get schema for the user step (initial setup).
 
     Args:
@@ -20,9 +20,9 @@ def get_user_schema(defaults: Mapping[str, Any] | None = None) -> vol.Schema:
         Voluptuous schema with an optional name field.
     """
     defaults = defaults or {}
-    return vol.Schema(
+    return probatio.Schema(
         {
-            vol.Optional(
+            probatio.Optional(
                 "name",
                 default=defaults.get("name", "GOVJE Parking"),
             ): selector.TextSelector(
